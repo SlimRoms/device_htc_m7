@@ -24,6 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/m7/overlay
 PRODUCT_PACKAGES += \
     FM2 \
     FMRecord \
+    libqcomfm_jni \
     qcom.fmradio
 
 # Inherit from m7-common

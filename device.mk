@@ -17,9 +17,6 @@
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/htc/m7/m7-vendor.mk)
 
-# overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/m7/overlay
-
 # FM radio
 PRODUCT_PACKAGES += \
     FM2 \

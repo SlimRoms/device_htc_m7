@@ -17,9 +17,6 @@ $(call inherit-product, device/htc/m7/full_m7.mk)
 # Inherit CM full phone configuration
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
-
 # Device naming
 PRODUCT_NAME := slim_m7
 
